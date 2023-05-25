@@ -10,9 +10,7 @@
   },
   "files": [
     "dashboard",
-    "graphics",
-    "extension.js",
-    "extension"
+    "graphics"
   ],
   "keywords": [
     "",
@@ -31,7 +29,13 @@
     ],
     "graphics": [
       {
-        "file": "index.html",
+        "file": "16-9_1P.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
+        "file": "4-3_1P.html",
         "width": 1920,
         "height": 1080,
         "singleInstance": false

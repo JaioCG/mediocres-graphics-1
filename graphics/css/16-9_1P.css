@@ -1,0 +1,59 @@
+/* Fonts */
+@font-face {
+    font-family: "D-DIN";
+    src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+    font-family: "D-DIN Bold";
+    src: url(../fonts/D-DIN-Bold.otf);
+}
+@font-face {
+    font-family: "D-DIN Condensed";
+    src: url(../fonts/D-DINCondensed.otf);
+}
+@font-face {
+    font-family: "D-DIN Condensed Bold";
+    src: url(../fonts/D-DINCondensed-Bold.otf);
+}
+
+/* Images */
+.background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.commentary-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+/* Runner Text */
+.runner-name {
+    position: absolute;
+    left: 85px;
+    top: 501px;
+    width: 292px;
+    height: 80px;
+    font-family: "D-DIN Condensed";
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 80px;
+}
+
+/* Game Information */
+#game-name {
+    position: absolute;
+    left: 678px;
+    top: 796px;
+    width: 435px;
+    height: 126px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height:126px;
+    overflow-wrap: normal;
+}
