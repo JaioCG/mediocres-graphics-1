@@ -55,5 +55,67 @@
     color: #FFFFFF;
     text-align: center;
     line-height:126px;
-    overflow-wrap: normal;
+    word-break: break-all;
+}
+#game-console {
+    position: absolute;
+    left: 678px;
+    top: 922px;
+    width: 241px;
+    height: 25px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: #2E3436;
+    text-align: center;
+    line-height:30px;
+}
+#game-year {
+    position: absolute;
+    left: 920px;
+    top: 922px;
+    width: 241px;
+    height: 25px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: #2E3436;
+    text-align: center;
+    line-height:30px;
+}
+
+/* Timer Information */
+#timer {
+    position: absolute;
+    left: 1360px;
+    top: 796px;
+    width: 435px;
+    height: 126px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 75px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height:126px;
+}
+#game-category {
+    position: absolute;
+    left: 1313px;
+    top: 922px;
+    width: 333px;
+    height: 25px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: #2E3436;
+    text-align: center;
+    line-height:30px;
+}
+#game-estimate {
+    position: absolute;
+    left: 1646px;
+    top: 922px;
+    width: 150px;
+    height: 25px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: #2E3436;
+    text-align: center;
+    line-height:30px;
 }
