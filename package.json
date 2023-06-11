@@ -20,10 +20,10 @@
     "compatibleRange": "^1.9.0",
     "dashboardPanels": [
       {
-        "name": "panel",
-        "title": "Panel",
-        "width": 2,
-        "file": "panel.html",
+        "name": "commentators",
+        "title": "Commentators Manager",
+        "width": 3,
+        "file": "commentators.html",
         "headerColor": "#525F78"
       }
     ],
