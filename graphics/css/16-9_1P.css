@@ -22,11 +22,10 @@
     left: 0px;
     top: 0px;
 }
-.commentary-img {
+.commentary-image {
     position: absolute;
     left: 0px;
     top: 0px;
-
 }
 
 /* Runner Text */
@@ -102,7 +101,7 @@
     width: 435px;
     height: 126px;
     font-family: "D-DIN Condensed Bold";
-    font-size: 75px;
+    font-size: 85px;
     color: #FFFFFF;
     text-align: center;
     line-height:126px;
