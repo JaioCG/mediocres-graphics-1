@@ -13,4 +13,6 @@ function updateComms() {
     comm2pronouns.value = document.getElementById('comm2-pronouns').value;
     comm3name.value = document.getElementById('comm3-name').value;
     comm3pronouns.value = document.getElementById('comm3-pronouns').value;
+
+    console.log('Comms updated');
 }
