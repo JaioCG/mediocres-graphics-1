@@ -53,63 +53,9 @@ $(() => {
 		}
 	}
 
-    // Commentator Texts
-    const comm1name = nodecg.Replicant('comm1-name');
-    const comm1pronouns = nodecg.Replicant('comm1-pronouns');
-    const comm2name = nodecg.Replicant('comm2-name');
-    const comm2pronouns = nodecg.Replicant('comm2-pronouns');
-    const comm3name = nodecg.Replicant('comm3-name');
-    const comm3pronouns = nodecg.Replicant('comm3-pronouns');
-
-    comm1name.on('change', (newVal) => {
-        const comm1pronounsFull = '[' + comm1pronouns.value + ']';
-        if(comm1name != '') {
-            if(comm1pronounsFull === '[undefined]')
-                comm1pronounsFull = '';
-            const comm1nameFull = newVal + ' ' + comm1pronounsFull;
-        } else {
-            const comm1nameFull = '';
-        }
-        updateComms();
+    // Commentator Names
+    const commFullRep = nodecg.Replicant('commFull');
+    commFullRep.on('change', (newVal) => {
+        fadeHtml('#commentary-text', newVal, true);
     });
-    comm2name.on('change', (newVal) => {
-        const comm2pronounsFull = '[' + comm2pronouns.value + ']';
-        if(comm2name != '') {
-            if(comm2pronounsFull === '[undefined]')
-                comm2pronounsFull = '';
-            const comm2nameFull = newVal + ' ' + comm1pronounsFull;
-        } else {
-            const comm2nameFull = '';
-        }
-        updateComms();
-    });
-    comm3name.on('change', (newVal) => {
-        const comm3pronounsFull = '[' + comm3pronouns.value + ']';
-        if(comm3name != '') {
-            if(comm3pronounsFull === '[undefined]')
-                comm3pronounsFull = '';
-            const comm3nameFull = newVal + ' ' + comm1pronounsFull;
-        } else {
-            const comm3nameFull = '';
-        }
-        updateComms();
-    });
-
-    function updateComms() {
-        const commentaryText = document.getElementById('commentary-text');
-
-        if(comm1nameFull != '') {
-            if(comm2nameFull != '') {
-                if(comm3nameFull != '') {
-                    commentaryText.innerHTML = comm1nameFull + ', ' + comm2nameFull + ', ' + comm3nameFull;
-                } else {
-                    commentaryText.innerHTML = comm1nameFull + ', ' + comm2nameFull;
-                }
-            } else {
-                commentaryText.innerHTML = comm1nameFull;
-            }
-        } else {
-            commentaryText.innerHTML = '';
-        }
-    }
 });

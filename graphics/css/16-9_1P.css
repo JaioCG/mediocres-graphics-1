@@ -42,6 +42,18 @@
     text-align: center;
     line-height: 80px;
 }
+.commentary-text {
+    position: absolute;
+    left: 133px;
+    top: 604px;
+    width: 415px;
+    height: 33px;
+    font-family: "D-DIN Condensed";
+    font-size: 25px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 33px;
+}
 
 /* Game Information */
 #game-name {
