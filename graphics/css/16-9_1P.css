@@ -17,12 +17,12 @@
 }
 
 /* Images */
-.background {
+#commentary-img {
     position: absolute;
     left: 0px;
     top: 0px;
 }
-.commentary-image {
+.background {
     position: absolute;
     left: 0px;
     top: 0px;

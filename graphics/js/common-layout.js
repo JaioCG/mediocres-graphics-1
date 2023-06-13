@@ -55,7 +55,17 @@ $(() => {
 
     // Commentator Names
     const commFullRep = nodecg.Replicant('commFull');
+    const hasCommsRep = nodecg.Replicant('hasComms');
+
     commFullRep.on('change', (newVal) => {
         fadeHtml('#commentary-text', newVal, true);
+    });
+
+    hasCommsRep.on('change', (newVal) => {
+        if (newVal == 1) {
+            document.getElementById('commentary-img').style.display = 'block';
+        } else {
+            document.getElementById('commentary-img').style.display = 'none';
+        }
     });
 });

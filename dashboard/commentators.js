@@ -1,5 +1,6 @@
 // Name Replicants
 const commFullRep = nodecg.Replicant('commFull');
+const hasCommsRep = nodecg.Replicant('hasComms');
 
 function updateComms() {
     // Commentator 1 Name
@@ -25,14 +26,18 @@ function updateComms() {
         if(comm2Full != ' ') {
             if(comm3Full != ' ') {
                 commFullRep.value = comm1Full + ', ' + comm2Full + ', ' + comm3Full;
+                hasCommsRep.value = 1;
             } else {
                 commFullRep.value = comm1Full + ', ' + comm2Full;
+                hasCommsRep.value = 1;
             }
         } else {
             commFullRep.value = comm1Full;
+            hasCommsRep.value = 1;
         }
     } else {
         commFullRep.value = '';
+        hasCommsRep.value = 0;
     }
 
     console.log(comm1Full);
