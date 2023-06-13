@@ -23,6 +23,50 @@
     top: 0px;
 }
 
+/* Cookie Clicker */
+@keyframes cookie-click-in {
+    0% { transform: scale(1.0); }
+    100% { transform: scale(0.9); }
+}
+@keyframes cookie-click-out {
+    0% { transform: scale(0.9); }
+    100% { transform: scale(1.0); }
+}
+@keyframes cookie-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(359deg); }
+}
+#cookie {
+    position: absolute;
+    left: 50px;
+    top: 730px;
+    animation: cookie-spin 30s infinite linear;
+}
+#cookie-text {
+    position: absolute;
+    left: 360px;
+    top: 785px;
+    width: 400px;
+    height: 75px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 35px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height:75px;
+}
+#cookie-count {
+    position: absolute;
+    left: 358px;
+    top: 805px;
+    width: 400px;
+    height: 150px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 100px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height:150px;
+}
+
 /* Up Next Game */
 #up-next-game {
     position: absolute;
