@@ -1,0 +1,24 @@
+/* Fonts */
+@font-face {
+    font-family: "D-DIN";
+    src: url(../fonts/D-DIN.otf);
+}
+
+/* Images */
+.background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.omnibar-text {
+    position: absolute;
+    width: 1418px;
+    height: 100px;
+    left: 502px;
+    top: 980px;
+    font-family: 'D-DIN';
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+}
