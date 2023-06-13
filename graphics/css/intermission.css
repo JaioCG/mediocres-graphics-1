@@ -1,0 +1,141 @@
+/* Fonts */
+@font-face {
+    font-family: "D-DIN";
+    src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+    font-family: "D-DIN Bold";
+    src: url(../fonts/D-DIN-Bold.otf);
+}
+@font-face {
+    font-family: "D-DIN Condensed";
+    src: url(../fonts/D-DINCondensed.otf);
+}
+@font-face {
+    font-family: "D-DIN Condensed Bold";
+    src: url(../fonts/D-DINCondensed-Bold.otf);
+}
+
+/* Images */
+.background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/* Up Next Game */
+#up-next-game {
+    position: absolute;
+    left: 1231px;
+    top: 373px;
+    width: 544px;
+    height: 157px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height:157px;
+    word-break: break-all;
+}
+#up-next-category {
+    position: absolute;
+    left: 1231px;
+    top: 530px;
+    width: 301px;
+    height: 38px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 35px;
+    color: #2E3436;
+    text-align: center;
+    line-height:38px;
+}
+#up-next-runner {
+    position: absolute;
+    left: 1532px;
+    top: 530px;
+    width: 301px;
+    height: 38px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 35px;
+    color: #2E3436;
+    text-align: center;
+    line-height:38px;
+}
+
+/* On Deck 1 */
+#on-deck-game-1 {
+    position: absolute;
+    left: 1358px;
+    top: 618px;
+    width: 436px;
+    height: 126px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height:126px;
+    word-break: break-all;
+}
+#on-deck-category-1 {
+    position: absolute;
+    left: 1358px;
+    top: 744px;
+    width: 241px;
+    height: 30px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: #2E3436;
+    text-align: center;
+    line-height:30px;
+}
+#on-deck-runner-1 {
+    position: absolute;
+    left: 1599px;
+    top: 744px;
+    width: 241px;
+    height: 30px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: #2E3436;
+    text-align: center;
+    line-height:30px;
+}
+
+/* On Deck 2 */
+#on-deck-game-2 {
+    position: absolute;
+    left: 1358px;
+    top: 824px;
+    width: 436px;
+    height: 126px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height:126px;
+    word-break: break-all;
+}
+#on-deck-category-2 {
+    position: absolute;
+    left: 1358px;
+    top: 950px;
+    width: 241px;
+    height: 30px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: #2E3436;
+    text-align: center;
+    line-height:30px;
+}
+#on-deck-runner-2 {
+    position: absolute;
+    left: 1599px;
+    top: 950px;
+    width: 241px;
+    height: 30px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: #2E3436;
+    text-align: center;
+    line-height:30px;
+}
