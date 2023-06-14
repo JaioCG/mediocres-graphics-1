@@ -62,10 +62,19 @@ $(() => {
     });
 
     hasCommsRep.on('change', (newVal) => {
-        if (newVal == 1) {
+        if (newVal == 1)
             document.getElementById('commentary-img').style.display = 'block';
-        } else {
+        else
             document.getElementById('commentary-img').style.display = 'none';
-        }
+    });
+
+    // Player 1 Camera
+    const cam1Rep = nodecg.Replicant('cam1');
+
+    cam1Rep.on('change', (newVal) => {
+        if(newVal == 1)
+            document.getElementById('no-camera').style.display = 'none';
+        else
+            document.getElementById('no-camera').style.display = 'block';
     });
 });

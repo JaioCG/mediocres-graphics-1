@@ -1,4 +1,4 @@
-// Name Replicants
+// Commentary Replicants
 const commFullRep = nodecg.Replicant('commFull');
 const hasCommsRep = nodecg.Replicant('hasComms');
 
@@ -44,4 +44,16 @@ function updateComms() {
     console.log(comm2Full);
     console.log(comm3Full);
     console.log(commFullRep.value);
+}
+
+// Camera Replicants
+const cam1Rep = nodecg.Replicant('cam1');
+
+function updateCams() {
+    let cam1Checked = document.getElementById('cam1').checked;
+    if(cam1Checked == true)
+        cam1Rep.value = 1;
+    else
+        cam1Rep.value = 0;
+    console.log(cam1Checked);
 }
