@@ -45,7 +45,7 @@
     height: 80px;
     font-family: "D-DIN Condensed";
     font-size: 50px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: center;
     line-height: 80px;
 }
@@ -57,7 +57,7 @@
     height: 33px;
     font-family: "D-DIN Condensed";
     font-size: 25px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: left;
     line-height: 33px;
 }
@@ -66,7 +66,7 @@
 .gray-text {
     font-family: "D-DIN Condensed Bold";
     font-size: 30px;
-    color: #2E3436;
+    color: var(--gray-color);
     text-align: center;
     line-height:30px;
 }
@@ -80,7 +80,7 @@
     height: 126px;
     font-family: "D-DIN Condensed Bold";
     font-size: 65px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: center;
     line-height:126px;
     word-break: break-all;
@@ -109,7 +109,7 @@
     height: 126px;
     font-family: "D-DIN Condensed Bold";
     font-size: 85px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: center;
     line-height:126px;
 }
