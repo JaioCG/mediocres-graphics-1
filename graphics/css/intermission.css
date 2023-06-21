@@ -50,7 +50,7 @@
     height: 75px;
     font-family: "D-DIN Condensed Bold";
     font-size: 35px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: left;
     line-height:75px;
 }
@@ -62,9 +62,32 @@
     height: 150px;
     font-family: "D-DIN Condensed Bold";
     font-size: 100px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: left;
     line-height:150px;
+}
+
+/* Text Classes */
+.white-text {
+    font-family: "D-DIN Condensed Bold";
+    font-size: 50px;
+    color: var(--white-color);
+    text-align: center;
+    line-height:126px;
+    word-break: break-all;
+}
+.gray-text {
+    font-family: "D-DIN Condensed Bold";
+    color: var(--gray-color);
+    text-align: center;
+}
+.big-text {
+    font-size: 35px;
+    line-height:38px;
+}
+.small-text {
+    font-size: 30px;
+    line-height:30px;
 }
 
 /* Up Next Game */
@@ -76,7 +99,7 @@
     height: 157px;
     font-family: "D-DIN Condensed Bold";
     font-size: 65px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: center;
     line-height:157px;
     word-break: break-all;
@@ -87,11 +110,6 @@
     top: 530px;
     width: 301px;
     height: 38px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 35px;
-    color: #2E3436;
-    text-align: center;
-    line-height:38px;
 }
 #up-next-runner {
     position: absolute;
@@ -99,11 +117,6 @@
     top: 530px;
     width: 301px;
     height: 38px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 35px;
-    color: #2E3436;
-    text-align: center;
-    line-height:38px;
 }
 
 /* On Deck 1 */
@@ -113,12 +126,6 @@
     top: 618px;
     width: 436px;
     height: 126px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 65px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height:126px;
-    word-break: break-all;
 }
 #on-deck-category-1 {
     position: absolute;
@@ -126,11 +133,6 @@
     top: 744px;
     width: 241px;
     height: 30px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }
 #on-deck-runner-1 {
     position: absolute;
@@ -138,11 +140,6 @@
     top: 744px;
     width: 241px;
     height: 30px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }
 
 /* On Deck 2 */
@@ -152,12 +149,6 @@
     top: 824px;
     width: 436px;
     height: 126px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 65px;
-    color: #FFFFFF;
-    text-align: center;
-    line-height:126px;
-    word-break: break-all;
 }
 #on-deck-category-2 {
     position: absolute;
@@ -165,11 +156,6 @@
     top: 950px;
     width: 241px;
     height: 30px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }
 #on-deck-runner-2 {
     position: absolute;
@@ -177,9 +163,4 @@
     top: 950px;
     width: 241px;
     height: 30px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }
