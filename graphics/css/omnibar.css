@@ -22,3 +22,10 @@
     line-height: 100px;
     text-align: center;
 }
+
+.white-text {
+    color: var(--white-color);
+}
+.accented-text {
+    color: var(--accent-color);
+}
