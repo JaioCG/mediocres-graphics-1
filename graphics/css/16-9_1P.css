@@ -25,19 +25,19 @@
     height: 540px;
     object-fit: cover;
 }
-#commentary-img {
+#background {
     position: absolute;
     left: 0px;
     top: 0px;
 }
-#background {
+#commentary-img {
     position: absolute;
     left: 0px;
     top: 0px;
 }
 
 /* Runner Text */
-.runner-name {
+#runner-name1 {
     position: absolute;
     left: 85px;
     top: 501px;
@@ -49,7 +49,7 @@
     text-align: center;
     line-height: 80px;
 }
-.commentary-text {
+#commentary-names {
     position: absolute;
     left: 133px;
     top: 604px;
@@ -60,6 +60,15 @@
     color: #FFFFFF;
     text-align: left;
     line-height: 33px;
+}
+
+/* Text Classes */
+.gray-text {
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: #2E3436;
+    text-align: center;
+    line-height:30px;
 }
 
 /* Game Information */
@@ -81,24 +90,14 @@
     left: 678px;
     top: 922px;
     width: 241px;
-    height: 25px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
+    height: 30px;
 }
 #game-year {
     position: absolute;
     left: 920px;
     top: 922px;
     width: 241px;
-    height: 25px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
+    height: 30px;
 }
 
 /* Timer Information */
@@ -120,11 +119,6 @@
     top: 922px;
     width: 333px;
     height: 25px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }
 #game-estimate {
     position: absolute;
@@ -132,9 +126,4 @@
     top: 922px;
     width: 150px;
     height: 25px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }
