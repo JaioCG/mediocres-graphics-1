@@ -12,7 +12,8 @@ ws.addEventListener('open', () => {
 
 // Create cookie counter
 const cookieCountText = document.getElementById('cookie-count');
-let cookieCount = localStorage.getItem("cookie-count") || 0;
+let cookieCount = localStorage.getItem("cookie-score") || 0;
+let cookieCountRep = nodecg.Replicant("cookie-count");
 
 // Message received.
 ws.addEventListener('message', (message) => {
@@ -26,6 +27,7 @@ ws.addEventListener('message', (message) => {
         setTimeout(function() { document.getElementById("cookie-click-animation").style.animation = "cookie-click-out 0.1s"; }, 100);
         cookieCount++;
         cookieCountText.innerHTML = cookieCount;
-        localStorage.setItem("cookie-count", cookieCount);
+        localStorage.setItem("cookie-score", cookieCount);
+		cookieCountRep.value = cookieCount;
     }
 });

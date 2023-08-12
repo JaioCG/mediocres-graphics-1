@@ -55,6 +55,12 @@ function refreshNextRunsData(currentRun) {
 	}
 }
 
+// Updating Cookie Counter
+let cookieCountRep = nodecg.Replicant("cookie-count");
+cookieCountRep.on('change', (newVal) => {
+    document.getElementById('cookie-count-text').innerHTML = newVal;
+});
+
 // Switching the content of the omnibar
 var divs = $('div[id^="content-"]').hide(), i = 0;
 (function cycle() { 
