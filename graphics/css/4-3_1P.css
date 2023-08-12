@@ -37,7 +37,7 @@
 }
 
 /* Runner Text */
-.runner-name {
+#runner-name1 {
     position: absolute;
     left: 127px;
     top: 307px;
@@ -45,11 +45,11 @@
     height: 80px;
     font-family: "D-DIN Condensed";
     font-size: 50px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: center;
     line-height: 80px;
 }
-.commentary-text {
+#commentary-names {
     position: absolute;
     left: 170px;
     top: 410px;
@@ -57,9 +57,18 @@
     height: 33px;
     font-family: "D-DIN Condensed";
     font-size: 25px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: left;
     line-height: 33px;
+}
+
+/* Text Classes */
+.gray-text {
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: var(--gray-color);
+    text-align: center;
+    line-height:30px;
 }
 
 /* Game Information */
@@ -71,7 +80,7 @@
     height: 96px;
     font-family: "D-DIN Condensed Bold";
     font-size: 65px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: center;
     line-height:96px;
     word-break: break-all;
@@ -82,11 +91,6 @@
     top: 674px;
     width: 223px;
     height: 30px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }
 #game-year {
     position: absolute;
@@ -94,11 +98,6 @@
     top: 674px;
     width: 223px;
     height: 30px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }
 
 /* Timer Information */
@@ -110,7 +109,7 @@
     height: 96px;
     font-family: "D-DIN Condensed Bold";
     font-size: 75px;
-    color: #FFFFFF;
+    color: var(--white-color);
     text-align: center;
     line-height:96px;
 	font-variant-numeric: tabular-nums lining-nums;
@@ -121,11 +120,6 @@
     top: 875px;
     width: 300px;
     height: 30px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }
 #game-estimate {
     position: absolute;
@@ -133,9 +127,4 @@
     top: 875px;
     width: 148px;
     height: 30px;
-    font-family: "D-DIN Condensed Bold";
-    font-size: 30px;
-    color: #2E3436;
-    text-align: center;
-    line-height:30px;
 }

@@ -5,6 +5,7 @@
     <title>16x9 1 Player</title>
 
     <!-- CSS  -->
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/16-9_1P.css">
 </head>
 <body>
@@ -13,30 +14,30 @@
 
     <!-- Background Image -->
     <img src="img/16-9_1P.png" id="background">
-    
-    <!-- Commentary -->
-    <div class="commentary-container">
-        <img src="img/16-9_1P_Commentary.png" id="commentary-img">
-        <div class="commentary-text" id="commentary-text"></div>
-    </div>
 
     <!-- Runner Details -->
     <div class="runner-container" id="runner-container1">
         <div class="runner-name" id="runner-name1"></div>
     </div>
 
+    <!-- Commentary -->
+    <div id="commentary-container">
+        <img src="img/16-9_1P_Commentary.png" id="commentary-img">
+        <div id="commentary-names"></div>
+    </div>
+
     <!-- Game Details -->
     <div class="game-container">
         <div id="game-name"></div>
-        <div id="game-console"></div>
-        <div id="game-year"></div>
+        <div class="gray-text" id="game-console"></div>
+        <div class="gray-text" id="game-year"></div>
     </div>
 
     <!-- Timer Container -->
     <div class="timer-container">
         <div id="timer"></div>
-        <div id="game-category"></div>
-        <div id="game-estimate"></div>
+        <div class="gray-text" id="game-category"></div>
+        <div class="gray-text" id="game-estimate"></div>
     </div>
 
     <!-- JavaScript -->
