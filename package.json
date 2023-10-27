@@ -41,6 +41,12 @@
         "singleInstance": false
       },
       {
+        "file": "4-3_1P_NEW.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+      {
         "file": "omnibar.html",
         "width": 1920,
         "height": 1080,

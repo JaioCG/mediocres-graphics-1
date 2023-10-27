@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4x3 1 Player</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/4-3_1P_NEW.css">
+</head>
+<body>
+    <!-- Player No-Camera Image -->
+    <img src="img/nocamera.png" id="no-camera">
+    
+    <!-- Background Image -->
+    <img src="img/4-3_1P_NEW.png" id="background">
+
+    <!-- Runner Details -->
+    <div class="runner-container" id="runner-container1">
+        <div class="runner-name" id="runner-name1"></div>
+    </div>
+
+    <!-- Commentary -->
+    <div id="commentary-container">
+        <img id="commentary-img" src="img/4-3_1P_NEW_Commentary.png">
+        <div id="commentary-names"></div>
+    </div>
+
+    <!-- Game Details -->
+    <div class="game-container">
+        <div id="game-name"></div>
+        <div class="gray-text" id="game-console"></div>
+        <div class="gray-text" id="game-year"></div>
+    </div>
+
+    <!-- Timer Container -->
+    <div class="timer-container">
+        <div id="timer"></div>
+        <div class="gray-text" id="game-category"></div>
+        <div class="gray-text" id="game-estimate"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/common-layout.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/timer.js"></script>
+</body>
+</html>

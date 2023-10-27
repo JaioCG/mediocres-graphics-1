@@ -1,0 +1,130 @@
+/* Fonts */
+@font-face {
+    font-family: "D-DIN";
+    src: url(../fonts/D-DIN.otf);
+}
+@font-face {
+    font-family: "D-DIN Bold";
+    src: url(../fonts/D-DIN-Bold.otf);
+}
+@font-face {
+    font-family: "D-DIN Condensed";
+    src: url(../fonts/D-DINCondensed.otf);
+}
+@font-face {
+    font-family: "D-DIN Condensed Bold";
+    src: url(../fonts/D-DINCondensed-Bold.otf);
+}
+
+/* Images */
+#no-camera {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 616px;
+    height: 459px;
+    object-fit: cover;
+}
+#background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#commentary-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+/* Runner Text */
+#runner-name1 {
+    position: absolute;
+    left: 127px;
+    top: 419px;
+    width: 292px;
+    height: 80px;
+    font-family: "D-DIN Condensed";
+    font-size: 50px;
+    color: var(--white-color);
+    text-align: center;
+    line-height: 80px;
+}
+#commentary-names {
+    position: absolute;
+    left: 170px;
+    top: 522px;
+    width: 442px;
+    height: 33px;
+    font-family: "D-DIN Condensed";
+    font-size: 25px;
+    color: var(--white-color);
+    text-align: left;
+    line-height: 33px;
+}
+
+/* Text Classes */
+.gray-text {
+    font-family: "D-DIN Condensed Bold";
+    font-size: 30px;
+    color: var(--gray-color);
+    text-align: center;
+    line-height:30px;
+}
+
+/* Game Information */
+#game-name {
+    position: absolute;
+    left: 106px;
+    top: 578px;
+    width: 416px;
+    height: 96px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 65px;
+    color: var(--white-color);
+    text-align: center;
+    line-height:96px;
+    word-break: break-all;
+}
+#game-console {
+    position: absolute;
+    left: 106px;
+    top: 674px;
+    width: 223px;
+    height: 30px;
+}
+#game-year {
+    position: absolute;
+    left: 330px;
+    top: 674px;
+    width: 223px;
+    height: 30px;
+}
+
+/* Timer Information */
+#timer {
+    position: absolute;
+    left: 106px;
+    top: 779px;
+    width: 416px;
+    height: 96px;
+    font-family: "D-DIN Condensed Bold";
+    font-size: 75px;
+    color: var(--white-color);
+    text-align: center;
+    line-height:96px;
+	font-variant-numeric: tabular-nums lining-nums;
+}
+#game-category {
+    position: absolute;
+    left: 106px;
+    top: 875px;
+    width: 300px;
+    height: 30px;
+}
+#game-estimate {
+    position: absolute;
+    left: 406px;
+    top: 875px;
+    width: 148px;
+    height: 30px;
+}
