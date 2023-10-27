@@ -58,7 +58,7 @@ $(() => {
     const hasCommsRep = nodecg.Replicant('hasComms');
 
     commFullRep.on('change', (newVal) => {
-        fadeHtml('#commentary-text', newVal, true);
+        fadeHtml('#commentary-names', newVal, true);
     });
 
     hasCommsRep.on('change', (newVal) => {
